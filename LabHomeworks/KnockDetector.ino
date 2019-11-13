@@ -17,7 +17,7 @@ int noteDuration;
 int lastChange = 0;
 bool lastState = LOW;
 bool newState;
-bool astReadState = LOW;
+bool lastReadState = LOW;
 bool newReadState;
 bool musicIsPlaying = false;
 
@@ -35,13 +35,12 @@ void setup()
   pinMode (passiveBuzzerPin, INPUT);
   pinMode (activeBuzzerPin, OUTPUT);
   digitalWrite (ledPin,HIGH);
-  //Serial.println (analogRead (passiveBuzzerPin));
 }
 
 void playMusic()
 {
   if (millis() < lastNoteTime + pauseBetweenNotes) 
-  {// wait more
+  {
     return;
    } 
   // stop the tone playing:
@@ -59,10 +58,9 @@ void playMusic()
   currentNote = (currentNote + 1) % noteLen;
 }
 
-void stopMusicListener() // checks if the music should be stopped
+void stopMusicListener()
 {
   newReadState = !digitalRead (buttonPin);
-  //Serial.println (newReadState);
   if (lastReadState != newReadState) {
     lastChange = millis();
     lastReadState = newReadState;
@@ -88,7 +86,6 @@ void stopMusicListener() // checks if the music should be stopped
 void loop() 
 {
   if (musicIsPlaying) {
-    //Serial.println ("Note");
     playMusic();
     stopMusicListener();
   }
