@@ -76,14 +76,6 @@ void showDigit(int num) {
   digitalWrite(digits[num], LOW);
 }
 
-// clears the display no. received as param
-void clearDigit(int num) {
-  showDigit(num);
-  for (uint8_t i = 0; i < segSize; ++i) {
-    digitalWrite(segments[i], LOW);
-  }
-}
-
 // the setup function runs once when you press reset or power the board
 void setup() {
   pinMode(joyButton_pushPin, INPUT_PULLUP);
