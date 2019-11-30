@@ -11,3 +11,8 @@
 # Homework 3 : 4_7digitsegments_display_each_digit.ino
               - A 4_7digitsegments is used to show numbers
               - with the joystick i contorl each number from the segment
+              
+# Homework 4 : LCD_Display_Menu_Game.ino
+              - a lcd display is used to show a menu of a game with: Start, HighScore and Settings
+              - to get out and save data from "HighScore" and "Settings" menu you need to go with the joystick up on the y axis
+              - the joystick is used to move throw the menu
