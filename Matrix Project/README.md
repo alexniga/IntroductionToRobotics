@@ -1,5 +1,9 @@
 ## Game idea: 
-            "Dancing joystick" where the arrows on the matrix show you the dance moves ^^ (the directions where to lean the joytick).
+            "Dancing joystick" where the arrows on the matrix show you the dance moves (^^).
+In other words, on a 8 by 8 matrix it will show you an arrow and that arrow is the direction you have to lean the joystick if you don't want to lose. Every level has a number from 1 to X and that number represents the difficulty of the level.
+            
+            The difficulty is measured like this: 
+            -The number of moves you need to do si equal to the number of the level (lvl 2 = 2 arrows) and the time-limit you have is inversely proportional with the level number (the higher the level the lower is the time-limit). 
 
 ## HW components: 
             -Arduino Uno
@@ -9,11 +13,17 @@
 
 ## Game brief introduction:
             - On the matrix there are 9 arrows that shows where to lean the joystick
-            - On the LCD Display we have the menu (Start game, Settings, HighScore) and for every choise it's caracteristics
+            - On the LCD Display we have the menu (Start game, Settings, HighScore) and for every choise it's characteristics
             - During the game the LCD dispaly the level, score and lives
    
 ## Video Demo:
             https://www.youtube.com/watch?v=BmTz_dCkCTk&list=RDMM8DiWzvE52ZY&index=4
+            
+## The game menu:
+            -Start -> If selected, the game starts
+            -HighScore -> It shows the highscore that the game has
+            -Settings -> You can select the starting level from 1 to 5
+            -Info -> It has 4 parts: Creator Name, Githug Link, Game Name, "made for"
 ## How to play:
 
    After you start the game, in 3 seconds it will show you one or more arrows on the matrix, depending on the level selected in the settings. 
