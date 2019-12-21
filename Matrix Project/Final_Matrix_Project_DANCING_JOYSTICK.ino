@@ -592,7 +592,7 @@ int LevelIsDone(int levelNumber) {
     for (int row = 0; row < 8; row++) {
       for (int col = 0; col < 8; col++) {
         lc.setLed(0, row, col, 0);
-        if (row == col || row + col == 8) {
+        if (row == col || row + col == 7) {
             lc.setLed(0, row, col, 1);
         }
       }
@@ -683,8 +683,8 @@ void loop() {
     if (yValue < 400) {
       if (movedYSet == false) {
         startingLevelSettings--;
-        if (startingLevelSettings < 0) {
-            startingLevelSettings = 0;
+        if (startingLevelSettings < 1) {
+            startingLevelSettings = 1;
         }
         movedYSet = true;
         printLevelSetTo(startingLevelSettings);
