@@ -17,7 +17,7 @@ In other words, on a 8 by 8 matrix it will show you an arrow and that arrow is t
             - During the game the LCD dispaly the level, score and lives
    
 ## Video Demo:
-            https://www.youtube.com/watch?v=BmTz_dCkCTk&list=RDMM8DiWzvE52ZY&index=4
+            https://youtu.be/e5piwSyVWnY
             
 ## The game menu:
             -Start -> If selected, the game starts
