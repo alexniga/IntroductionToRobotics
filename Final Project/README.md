@@ -21,7 +21,7 @@ In other words, on a 8 by 8 matrix it will show you a palm and if some fingers a
             - During the game the LCD dispaly the level, score and lives
    
 ## Video Demo:
-            https://www.youtube.com/watch?v=e5piwSyVWnY
+            https://www.youtube.com/watch?v=kxpWqEBkEEs
             
 ## The game menu:
             -Start -> If selected, the game starts
@@ -66,3 +66,5 @@ The projection of the palm on the matrix indicates what fingers you have to felx
 <img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366501-80bfa180-58c7-11ea-9f0a-245695921bbb.jpeg">
 <img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366504-82896500-58c7-11ea-9dbd-2fb685745c21.jpeg">
 <img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366505-83ba9200-58c7-11ea-980c-60bba54c2b18.jpeg">
+
+### Inspired by the tutorial: https://www.instructables.com/id/Arduino-Flex-Sensor-Glove/ 
