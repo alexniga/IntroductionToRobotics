@@ -1,3 +1,9 @@
+#                                                DANCING GLOVE
+
+<img width="400" align = "center" alt="like" src="https://user-images.githubusercontent.com/46327732/75369588-69cf7e00-58cc-11ea-856f-7d7e777aff05.jpg">
+
+
+
 
 ## Game idea: 
             "Dancing Glove" where the projection of the palm on the matrix show you how "to dance with your fingers" (^^).
