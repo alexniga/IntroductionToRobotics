@@ -29,38 +29,27 @@ In other words, on a 8 by 8 matrix it will show you a palm and if some fingers a
             -Settings -> You can select the starting level from 1 to 5
             -Info -> It has 4 parts: Creator Name, Githug Link, Game Name, "made for"
 
-# complteaza de aici
+
 ## How to play:
 
-   After you start the game, in 3 seconds it will show you one or more arrows on the matrix, depending on the level selected in the settings. 
-The arrow on the matrix indicates the direction where you have to lean the joystick:
+   After you start the game, in 3 seconds it will show you a projection of a palm on the matrix, depending on the level selected in the settings. 
+The projection of the palm on the matrix indicates what fingers you have to felx(it can be 0, 1 or all):
 
-            - For this out-put on the matrix, you would have to lean the joystick UP.
- <img width="224" alt="arrowUp" src="https://user-images.githubusercontent.com/46327732/71310422-b0ac7d80-241c-11ea-8b88-5ca303c983a2.png">
+            - For this out-put on the matrix, you don't have to flex any finger
+<img width="216" alt="full palm" src="https://user-images.githubusercontent.com/46327732/75365763-51f4fb80-58c6-11ea-9e51-b1261baa1db4.png">
             
-            -For this out-put on the matrix, you would have to lean the joystick DOWN.
- <img width="222" alt="arrowDown" src="https://user-images.githubusercontent.com/46327732/71313531-8ff71e80-2442-11ea-85e9-5e69342c24fe.png">
+            -For this out-puts on the matrix, you would have to flex the missing finger.
+            (index finger for the first one and ring finger for the other one).
+<img width="216" alt="missing index" src="https://user-images.githubusercontent.com/46327732/75365879-8668b780-58c6-11ea-8fe9-a45d43761389.png">
+
+<img width="216" alt="missing ring" src="https://user-images.githubusercontent.com/46327732/75365883-87014e00-58c6-11ea-9e16-3bedd1fd2d3f.png">
+
  
-            -For this out-put on the matrix, you would have to lean the joystick to the RIGHT.
- <img width="225" alt="arrowRight" src="https://user-images.githubusercontent.com/46327732/71313566-2fb4ac80-2443-11ea-9140-16e8a7b942e4.png">
+            -For this kind of out-puts on the matrix, you would have to flex multiple fingers.
+ <img width="223" alt="missing ring index middle" src="https://user-images.githubusercontent.com/46327732/75366027-c92a8f80-58c6-11ea-97af-2f7985abc8c2.png">
  
-            -For this out-put on the matrix, you would have to lean the joystick to the LEFT.
- <img width="222" alt="arrowLeft" src="https://user-images.githubusercontent.com/46327732/71313580-612d7800-2443-11ea-800e-257c238aaadd.png">
+<img width="223" alt="like" src="https://user-images.githubusercontent.com/46327732/75366032-c9c32600-58c6-11ea-8195-6e0ed3493466.png">
 
-            -For this out-put on the matrix, you would have to lean the joystick to the TOP LEFT CORNER.
-<img width="228" alt="arrowTopLeftCorner" src="https://user-images.githubusercontent.com/46327732/71313715-37755080-2445-11ea-9ebd-b2761d3d1fce.png">
-
-            -For this out-put on the matrix, you would have to lean the joystick to the TOP RIGHT CORNER.
-<img width="224" alt="arrowTopRightCorner" src="https://user-images.githubusercontent.com/46327732/71313716-380de700-2445-11ea-8bc8-201d0f3342c4.png">
-
-            -For this out-put on the matrix, you would have to lean the joystick to the BOTTOM RIGHT CORNER.
-<img width="225" alt="arrowBottomRightCorner" src="https://user-images.githubusercontent.com/46327732/71313717-380de700-2445-11ea-954f-24469e4b5675.png">
-
-            -For this out-put on the matrix, you would have to lean the joystick to the BOTTOM LEFT CORNER.
-<img width="220" alt="arrowBottomLeftCorner" src="https://user-images.githubusercontent.com/46327732/71313718-380de700-2445-11ea-979d-22b0e560c03e.png">
-
-            -For this out-put on the matrix, you would have to push the joystick BUTTON.
-<img width="223" alt="PushTheButton" src="https://user-images.githubusercontent.com/46327732/71313754-c71aff00-2445-11ea-87c7-4184505c9c28.png">
 
             If you will do all the moves corectlly, then you will get an "O" on the matrix like this witch means that you finished the level
 <img width="222" alt="O" src="https://user-images.githubusercontent.com/46327732/71313788-59bb9e00-2446-11ea-8a28-22ef64fda73a.png">
@@ -71,7 +60,9 @@ The arrow on the matrix indicates the direction where you have to lean the joyst
 
 
 ## The whole assembled hardware:
-<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/71313932-0c8cfb80-2449-11ea-88ed-28e5991562f4.png">
-<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/71313933-0c8cfb80-2449-11ea-83c5-054374210c69.png">
-<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/71313934-0c8cfb80-2449-11ea-8bc3-147b701edeea.png">
-<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/71313935-0d259200-2449-11ea-9cba-fff19cdbe07f.png">
+<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366488-7c938400-58c7-11ea-9900-f291d8db153f.jpeg">
+<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366497-7ef5de00-58c7-11ea-9c25-b09c108fc7a5.jpeg">
+<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366500-80270b00-58c7-11ea-8163-badb55520d8e.jpeg">
+<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366501-80bfa180-58c7-11ea-9f0a-245695921bbb.jpeg">
+<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366504-82896500-58c7-11ea-9dbd-2fb685745c21.jpeg">
+<img width="400" alt="X" src="https://user-images.githubusercontent.com/46327732/75366505-83ba9200-58c7-11ea-980c-60bba54c2b18.jpeg">
